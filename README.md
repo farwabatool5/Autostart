@@ -1,4 +1,5 @@
 # Autostart
+--> Migrated Areas:
 For this task, we migrated these functions: def entity_arrival(entity_id),def task_auto_start(request) -> in view.py. And create_task_status(mark_entity_arrived_on_task, task_status, entity_id, is_company) -> in notification_utils.py.
 Models Migrated:
 1. Event
@@ -12,6 +13,6 @@ Models Migrated:
 9. Template
 10. User
     
-Refactoring Areas:
+--> Refactoring Areas:
 
-Issues Faced:
+--> Issues Faced:
